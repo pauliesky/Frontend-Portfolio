@@ -9,13 +9,13 @@
 :root {
   --header-height: 3rem;
   --hue: 0;
-  --sat: 0;
+  --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #ffff;
- 
+
   --body-font: "Poppins", sans-serif;
 
   --big-font-size: 3.5rem;
@@ -67,7 +67,7 @@ input,
 textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-}     
+}
 
 body {
   background-color: var(--body-color);
@@ -111,7 +111,7 @@ img {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
-} 
+}
 
 .section__title,
 .section__subtitle {
@@ -137,11 +137,11 @@ img {
   font-weight: var(--font-medium);
 }
 
-.button:hover {   
+.button:hover {
   background-color: var(--title-color-dark);
 }
 
-.button__icon {   
+.button__icon {
   margin-left: var(--mb-0-5);
 }
 
@@ -150,15 +150,33 @@ img {
   align-items: center;
 }
 
-
 @media screen and (max-width: 992px) {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
+
+  .b1utton {
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 @media screen and (max-width: 350px) {
+  .section {
+    padding: 2rem 0 4rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  :root {
+    --big-font-size: 2.25rem;
+  }
+
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
