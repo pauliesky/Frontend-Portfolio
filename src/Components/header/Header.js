@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className='header' >
       <nav className='nav container' >
-        {!Toggle &&<a href='index.html' className='nav__logo'>Paul</a>}
+        {!Toggle && <a href='index.html' className='nav__logo'>Paul</a>}
 
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
           <ul className='nav__list grid' >
@@ -46,7 +46,7 @@ const Header = () => {
           </ul>
           <i class="uil uil-times  nav__close" onClick={() => showMenu(!Toggle)}></i>
 
-          
+
         </div>
         {!Toggle && <div className='nav__toggle' onClick={() => showMenu(!Toggle)}>
           <i class="uil uil-apps"></i>

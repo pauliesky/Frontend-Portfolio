@@ -32,10 +32,10 @@ const Qualifications = () => {
           <div className={toggleState === 1 ? 'qualification__content qualification__content-active' : 'qualification__content'}  >
             <div className='qualification__data' >
               <div>
-                <h3 className='qualification__title'> Web Designer</h3>
-                <span className='qualification__subtitle' >SPain- intitute</span>
+                <h3 className='qualification__title'> FrontEnd Developer Intern</h3>
+                <span className='qualification__subtitle' >TiideLab</span>
                 <div className='qualification__calender' >
-                  <i className='uil uil-calendar-alt'></i>2021-present
+                  <i className='uil uil-calendar-alt'></i>2021
                 </div>
               </div>
               <div>
