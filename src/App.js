@@ -4,7 +4,7 @@ import Header from './Components/header/Header';
 import Home from './Components/Home/Home';
 import About from './Components/about/About';
 import Skills from './Components/skills/Skills';
-// import Services from './Components/services/Services';
+import Services from './Components/services/Services';
 import Qualifications from './Components/qualifications/Qualifications';
 import Contact from './Components/contact/Contact';
 import Footer from './Components/footer/Footer';
@@ -22,7 +22,7 @@ function App() {
         <Home />
         <About />
         <Skills />
-        {/* <Services /> */}
+        <Services />
         <Work />
         <Qualifications />
         <Contact />

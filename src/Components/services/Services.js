@@ -30,38 +30,38 @@ const Services = () => {
             <div className='services__modal-content' >
               <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close' ></i>
 
-              {/* <h3 className='services__modal-title' >Product Designer </h3>
-              <p className='services__modal-description'> Services with more than 3 uears of experience. Providing qiality wotk to clients and companies</p> */}
+              {/* <h3 className='services__modal-title' >Product Designer </h3>*/}
+              {/* <p className='services__modal-description'> While I am not a natural designer, I strongly believe design is as important as functionality in web applicaions</p> */}
 
               <ul className='services__modal-services grid' >
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    i develop user interface</p>
+                    User interface</p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    Web Page Management</p>
+                    Pixel Perfection</p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    I create ux element interactions</p>
+                    UX element interactions</p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    I position your compnay brand</p>
+                    Dynamic</p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    Design and mockups of products for companies</p>
+                    Mobile friendly</p>
                 </li>
               </ul>
 
@@ -72,7 +72,7 @@ const Services = () => {
         <div className='services__content' >
           <div>
             <i className='uil uil-arrow services__icon'></i>
-            <h3 className='services__title'>Functionaity </h3>
+            <h3 className='services__title'>Functionality </h3>
           </div>
           <span className='services__button' onClick={() => toggleTab(2)} >View More <i className='uil uil-arrow-right services__button-icon' ></i></span>
 
@@ -89,31 +89,31 @@ const Services = () => {
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    i develop user interface</p>
+                    Paying attention to details</p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    Web Page Management</p>
+                    Speed </p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    I create ux element interactions</p>
+                    Eficient Web</p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    I position your compnay brand</p>
+                    Easy to navigate</p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    Design and mockups of products for companies</p>
+                    Consistent Layout</p>
                 </li>
               </ul>
 
@@ -124,7 +124,7 @@ const Services = () => {
         <div className='services__content' >
           <div>
             <i className='uil uil-edit services__icon'></i>
-            <h3 className='services__title'> Visual <br /> Designer  </h3>
+            <h3 className='services__title'> Skills  </h3>
           </div>
           <span className='services__button' onClick={() => toggleTab(3)} >View More <i className='uil uil-arrow-right services__button-icon' ></i></span>
 
@@ -141,31 +141,31 @@ const Services = () => {
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    i hhdevelop user interface</p>
+                    Clean code</p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    Web Page Management</p>
+                    Excellent Technical Skill</p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    I create ux element interactions</p>
+                    Time Management</p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    I position your compnay brand</p>
+                    Team Player</p>
                 </li>
 
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    Design and mockups of products for companies</p>
+                    Project Management Tool</p>
                 </li>
               </ul>
 
