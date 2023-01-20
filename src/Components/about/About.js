@@ -16,8 +16,8 @@ const About = () => {
         <img src={AboutImg} alt='' className='about__img' />
         <div className='about__data' >
           <Info />
-          <p className='about__description' > Frontend Developr, I create web pages with UI/ UX user interface, I have years of experience and many clients are happy wiht the projects carried out </p>
-          <a download='' href={CV} className='button button--flex'> Download CV
+          <p className='about__description' > A Frontend Engineer who is based in Lagos, Nigeria. I am passionate about building excellent softwares.I create beautiful, functional and usable websites. </p>
+          <a download='' href={CV} className='button button--flex'> Download Resume
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"

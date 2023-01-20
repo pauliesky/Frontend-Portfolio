@@ -51,7 +51,10 @@
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
 }
+.work__stack,.work__role{
+  color: var(--title-color);
 
+}
 .work__button {
   color: var(--text-color);
   font-size: var(--small-font-size);

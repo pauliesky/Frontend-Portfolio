@@ -28,20 +28,20 @@ const Contact = () => {
 
       <div className='contact__container container grid'  >
         <div className='contact__content' >
-          <h3 className='contact__title' > Talk to me</h3>
+          <h3 className='contact__title' > Leave a message</h3>
           <div className='contact__info'  >
             <div className='contact__card' >
               <i className='bx bx-mail-send contact__card-icon' ></i>
               <h3 className='contact__card-title'> Emails</h3>
               <span className='contact__card-data' >paulakinleyegmail</span>
 
-              <a href='mailto:paulakinleye@gmail.com' className='contact__button' > write me
+              <a href='mailto:paulakinleye@gmail.com' className='contact__button' > Send
                 <i className='bx bx-right-arrow-alt contact__button-icon'  >
                 </i >
               </a>
             </div>
 
-            <div className='contact__card' >
+            {/* <div className='contact__card' >
               <i className='bx bxl-whatsapp  contact__card-icon' ></i>
               <h3 className='contact__card-title'>Whatsapp </h3>
               <span className='contact__card-data' >0909090909090909</span>
@@ -50,9 +50,9 @@ const Contact = () => {
                 <i className='bx bx-right-arrow-alt contact__button-icon'  >
                 </i >
               </a>
-            </div>
+            </div> */}
 
-            <div className='contact__card' >
+            {/* <div className='contact__card' >
               <i className='bx bxl-messenger contact__card-icon' ></i>
               <h3 className='contact__card-title'>Messager </h3>
               <span className='contact__card-data' >  briuvbwvblwkb.fff</span>
@@ -61,7 +61,7 @@ const Contact = () => {
                 <i className='bx bx-right-arrow-alt contact__button-icon'  >
                 </i >
               </a>
-            </div>
+            </div> */}
 
           </div>
 
@@ -77,7 +77,7 @@ const Contact = () => {
                 type='text'
                 name='name'
                 className='contact__form-input'
-                placeholder='Insert your name'
+              // placeholder='Name'
               />
             </div>
 
@@ -87,7 +87,7 @@ const Contact = () => {
                 type='email'
                 name='email'
                 className='contact__form-input'
-                placeholder='Insert your name'
+              // placeholder='E-mail'
               />
             </div>
 
@@ -98,7 +98,7 @@ const Contact = () => {
                 cols='30'
                 rows='10'
                 className='contact__form-input'
-                placeholder='write your project'
+              // placeholder=''
               ></textarea>
             </div>
 

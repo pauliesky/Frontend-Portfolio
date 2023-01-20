@@ -21,17 +21,17 @@ const Services = () => {
         <div className='services__content' >
           <div>
             <i className='uil uil-web-grid services__icon'></i>
-            <h3 className='services__title'> product <br /> Designer </h3>
+            <h3 className='services__title'>  Design </h3>
           </div>
           <span className='services__button' onClick={() => toggleTab(1)} >View More
             <i className='uil uil-arrow-right services__button-icon' ></i>
           </span>
           <div className={toggleState === 1 ? 'services__modal active-modal' : 'services__modal'} >
             <div className='services__modal-content' >
-              <i onClick={() => toggleTab(0)  } className='uil uil-times services__modal-close' ></i>
+              <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close' ></i>
 
-              <h3 className='services__modal-title' >Product Designer </h3>
-              <p className='services__modal-description'> Services with more than 3 uears of experience. Providing qiality wotk to clients and companies</p>
+              {/* <h3 className='services__modal-title' >Product Designer </h3>
+              <p className='services__modal-description'> Services with more than 3 uears of experience. Providing qiality wotk to clients and companies</p> */}
 
               <ul className='services__modal-services grid' >
                 <li className='services__modal-service' >
@@ -72,18 +72,18 @@ const Services = () => {
         <div className='services__content' >
           <div>
             <i className='uil uil-arrow services__icon'></i>
-            <h3 className='services__title'>UI/Ux <br />Designer  </h3>
+            <h3 className='services__title'>Functionaity </h3>
           </div>
-          <span className='services__button' onClick={() => toggleTab(1)} >View More <i className='uil uil-arrow-right services__button-icon' ></i></span>
+          <span className='services__button' onClick={() => toggleTab(2)} >View More <i className='uil uil-arrow-right services__button-icon' ></i></span>
 
 
-          <div className={toggleState === 1 ? 'services__modal active-modal' : 'services__modal'} >
+          <div className={toggleState === 2 ? 'services__modal active-modal' : 'services__modal'} >
             <div className='services__modal-content' >
 
               <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close' ></i>
 
-              <h3 className='services__modal-title' >UI/Ux DEsigner </h3>
-              <p className='services__modal-description'> Services with more than 3 uears of experience. Providing qiality wotk to clients and companies</p>
+              {/* <h3 className='services__modal-title' >UI/Ux DEsigner </h3>
+              <p className='services__modal-description'> Services with more than 3 uears of experiencejj. Providing qiality wotk to clients and companies</p> */}
 
               <ul className='services__modal-services grid' >
                 <li className='services__modal-service' >
@@ -126,22 +126,22 @@ const Services = () => {
             <i className='uil uil-edit services__icon'></i>
             <h3 className='services__title'> Visual <br /> Designer  </h3>
           </div>
-          <span className='services__button' onClick={() => toggleTab(1)} >View More <i className='uil uil-arrow-right services__button-icon' ></i></span>
+          <span className='services__button' onClick={() => toggleTab(3)} >View More <i className='uil uil-arrow-right services__button-icon' ></i></span>
 
 
-          <div className={toggleState === 1 ? 'services__modal active-modal' : 'services__modal'} >
+          <div className={toggleState === 3 ? 'services__modal active-modal' : 'services__modal'} >
             <div className='services__modal-content' >
 
               <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close' >  </i>
 
-              <h3 className='services__modal-title' > Visual Designer</h3>
-              <p className='services__modal-description'> Services with more than 3 uears of experience. Providing qiality wotk to clients and companies</p>
+              {/* <h3 className='services__modal-title' > Visual Designer</h3>
+              <p className='services__modal-description'> Services with more than 3 uears of experience. Providing qiality wotk to clients and companies</p> */}
 
               <ul className='services__modal-services grid' >
                 <li className='services__modal-service' >
                   <i className='uil uil-check-circle services__modal-icon' ></i>
                   <p className='services__modal-info'>
-                    i develop user interface</p>
+                    i hhdevelop user interface</p>
                 </li>
 
                 <li className='services__modal-service' >
