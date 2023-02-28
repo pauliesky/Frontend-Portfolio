@@ -99,7 +99,7 @@ const Qualifications = () => {
             <div className='qualification__data' >
               <div>
                 <h3 className='qualification__title'> Freelance Web Developer</h3>
-                <span className='qualification__subtitle' >CredBevy,Cleath,<br/>Electrastudio</span>
+                <span className='qualification__subtitle' >CredBevy</span>
                 <div className='qualification__calender' >
                   <i className='uil uil-calendar-alt'></i>2023-Present
                 </div>

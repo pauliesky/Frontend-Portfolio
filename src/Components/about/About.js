@@ -17,7 +17,7 @@ const About = () => {
         <div className='about__data' >
           <Info />
           <p className='about__description' > A Frontend Engineer who is based in Lagos, Nigeria. I am passionate about building excellent softwares.I create beautiful, functional and usable websites. </p>
-          <a download='' href={CV} className='button button--flex'> Download Resume
+          <a download='' href='https://drive.google.com/file/d/18V2-20FsEyDOq9S3FdrIJKhs9GRdy8L7/view?usp=share_link'  className='button button--flex'> Download Resume
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
