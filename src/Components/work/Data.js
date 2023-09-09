@@ -38,7 +38,7 @@ export const projectsData = [
     stack: 'HTML,CSS,JavScript,React',
     role: 'Frontend Engineer',
     category: 'web',
-    site: 'https://credbevy.netlify.app/'
+    site: 'https://credbevy.com/'
   },
 ];
 
