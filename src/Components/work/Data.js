@@ -3,6 +3,7 @@ import Work2 from '../../assets/work2.jpg'
 // import Work3 from '../../assets/work3.jpg'
 // import Work4 from '../../assets/work4.jpg'
 import Work5 from '../../assets/work5.png'
+import Work6 from '../../assets/Work6.png'
 
 
 
@@ -17,6 +18,18 @@ export const projectsData = [
     role: 'Frontend Engineer',
     category: 'web',
     site: 'https://teachify-learning.netlify.app'
+
+
+  },
+  {
+    id: 2,
+    image: Work6,
+    title: 'Credbevy Dashboard',
+    about: 'E-shop for all matters relating to loans',
+    stack: 'React,Axios,Redux,Tailwind CSS',
+    role: 'Frontend Engineer',
+    category: 'web',
+    site: 'https://partners.credbevy.com/'
 
 
   },
