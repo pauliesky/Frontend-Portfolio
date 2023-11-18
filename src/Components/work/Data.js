@@ -21,18 +21,18 @@ export const projectsData = [
 
 
   },
-  {
-    id: 2,
-    image: Work6,
-    title: 'Credbevy Dashboard',
-    about: 'E-shop for all matters relating to loans',
-    stack: 'React,Axios,Redux,Tailwind CSS',
-    role: 'Frontend Engineer',
-    category: 'web',
-    site: 'https://partners.credbevy.com/'
+  // {
+  //   id: 2,
+  //   image: Work6,
+  //   title: 'Credbevy Dashboard',
+  //   about: 'E-shop for all matters relating to loans',
+  //   stack: 'React,Axios,Redux,Tailwind CSS',
+  //   role: 'Frontend Engineer',
+  //   category: 'web',
+  //   site: 'https://partners.credbevy.com/'
 
 
-  },
+  // },
   {
     id: 5,
     image: Work5,
